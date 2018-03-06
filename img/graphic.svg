@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="300" height="250" version="1.1" xmlns="http://www.w3.org/2000/svg">  
+ <style type="text/css"><![CDATA[  
+      text {font: italic 1.2em "Times New Roman",serif}
+    ]]></style>
+<!-- osy -->
+  <line x1="150" y1="5" x2="150" y2="245" stroke="#000000" />
+  <polyline points="147,10 150,5 153,10" stroke="#000000" fill="none" />
+  <line x1="5" y1="125" x2="295" y2="125" stroke="#000000" />
+  <polyline points="290,122 295,125 290,128" stroke="#000000" fill="none" />
+<!-- popisky -->
+  <text x="157" y="140" style="font-style:normal" text-anchor="middle">0</text>
+  <text x="292" y="140" text-anchor="middle">x</text>
+  <text x="160" y="15" text-anchor="middle">y</text> 
+  <text x="87" y="148" fill="#ff000f" text-anchor="middle">x</text>
+  <text x="93" y="153" fill="#ff000f" style="font-style:normal;font-size:0.8em" text-anchor="middle">1</text>
+  <text x="211" y="148" fill="#ff000f" text-anchor="middle">x</text>
+  <text x="217" y="153" fill="#ff000f" style="font-style:normal;font-size:0.8em" text-anchor="middle">2</text>
+<!-- rovnice -->
+  <path fill="none" stroke="#ff6600" d="M50,5 Q150,400 250,5" />
+  <path fill="none" stroke="#1f3a93" d="M50,245 Q150,-150 250,245" />
+<!-- nulove body -->
+  <circle cx="87" cy="125" r="3" fill="#ff000f" />
+  <circle cx="213" cy="125" r="3" fill="#ff000f" />
+<!-- poz popisku -->
+  <polygon points="0,0 100,0 100,37 0,37" fill="#ffffff" />
+  <text x="5" y="19" fill="#ff6600">y = ax</text>
+  <text x="60" y="19" fill="#ff6600"> + by + c</text>
+  <text x="55" y="9" fill="#ff6600" style="font-size:0.8em;font-style:normal">2</text>
+  <text x="70" y="34" fill="#ff6600" style="font-size:0.9em" text-anchor="middle">(a > 0)</text>
+  <polygon points="175,210 300,210 300,250 175,250" fill="#ffffff" />
+  <text x="165" y="230" fill="#1f3a93">y = ax </text>
+  <text x="220" y="230" fill="#1f3a93"> + by + c</text>
+  <text x="215" y="220" fill="#1f3a93" style="font-size:0.8em;font-style:normal">2</text>
+  <text x="210" y="245" fill="#1f3a93" style="font-size:0.9em">(a</text>
+  <polyline points="235,237 228,240 235,243" fill="none" stroke="#1f3a93" />
+  <text x="240" y="245" fill="#1f3a93" style="font-size:0.9em">0)</text>
+</svg>

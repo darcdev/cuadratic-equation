@@ -1,0 +1,102 @@
+body {
+	font-family: 'Coiny', cursive;
+	text-shadow: 10px 10px 10px black;
+	background: #F5F1F1;
+	font-size: 0.8em;
+}
+h1 {
+	text-align: center;
+	margin-top: 0;
+	padding: 10px 10px;
+	border-radius: 10px;
+	background: -webkit-linear-gradient(top, #fff, grey);
+	text-shadow: 10px 10px 10px white;
+}
+.equation {
+	max-width: 100%;
+	border: 2px dashed black;
+	border-radius: 120px;
+	display: block;
+	margin-bottom: 5px;
+	margin: 0 auto;
+}
+/* principal contain board */
+
+.contain {
+	margin: 0 auto;
+	border: 2px solid black;
+	border-radius: 10px;
+}
+h2 {
+	margin-bottom: 15px;
+}
+.input {
+	border: 2px solid black;
+	margin-bottom: 5px;
+	background: #F4F5D2;
+	border-radius: 10px;
+}
+fieldset {
+	border-radius: 15px;
+	margin-bottom: 10px;
+}
+legend {
+	font-size: 1.2em;
+}
+.output {
+	border: 2px solid black;
+	background: #DDF5DB;
+	border-radius: 10px;
+}
+.align {
+	text-align: center;
+}
+.parameters {
+	border: 1px solid dashed;
+	width: 80%;
+	padding-bottom: 30px;
+	margin: 0 auto;
+	border-radius: 10px;
+}
+.cuadratic {
+	margin: 0 auto;
+	border: 2px dashed black;
+	padding: 10px 0;
+	margin-bottom: 10px;
+	text-align: center;
+	border-radius: 10px;
+}
+h4 {
+	font-size: 1.2em;
+	margin-top: 1px;
+	margin-bottom: 20px;
+}
+input[type="number"], input[type="text"] {
+	width: 3.9em;
+	background: white;
+	text-align: center;
+	padding: 0;
+	margin: 0;
+}
+.shadow-effect {
+	box-shadow: 10px 10px 10px grey;
+}
+.button {
+	background-color: white;
+	color: black;
+	border: 2px solid #555555;
+	font-size: 18px;
+	margin-top: 20px;
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	border-radius: 10px;
+}
+.button:hover {
+	background-color: #555555;
+	color: white;
+	box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+.send {
+	border-radius: 5px;
+	border: 1px dashed black;
+	margin-bottom: 10px;
+}

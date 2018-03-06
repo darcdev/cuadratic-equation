@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta content="width=device-width, initial-scale=1" name="viewport"><!--Stylesheets-->
+	<title>Cuadratica</title>
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Coiny" rel="stylesheet">
+	<link href="css/styles.css" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js">
+	</script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+	</script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js">
+	</script>
+</head>
+<body>
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col">
+				<h1>QUADRATIC EQUATION</h1>
+			</div>
+		</div>
+		<div class="row mt-4">
+			<div class="col">
+				<figure>
+					<img alt="equation cuadratic" class="equation" src="img/ecuacion.jpg">
+					<figcaption class="align">
+						<small><em>Quadratic Ekuatio</em></small>
+					</figcaption>
+				</figure>
+			</div>
+		</div>
+		<div class="row contain shadow-effect p-2">
+			<div class=" col">
+				<form class="row" id="parameters_form" name="parameters_form">
+					<div class="col-12 col-xs-12 col-md-6 p-2 input shadow-effect">
+						<h2 class="align">Input</h2>
+						<div class="row parameters p-0">
+							<div class="col-12">
+								<fieldset class="shadow-effect">
+									<legend>Parameter 1:</legend> a= <input class="send" id="parameter1" name="parameter1" placeholder="0" type="number" value="0">
+								</fieldset>
+							</div>
+							<div class="col-12">
+								<fieldset class="shadow-effect">
+									<legend>Parameter 2:</legend> b= <input class="send" id="parameter2" name="parameter2" placeholder="0" type="number" value="0">
+								</fieldset>
+							</div>
+							<div class="col-12">
+								<fieldset class="shadow-effect">
+									<legend>Parameter 3:</legend> c= <input class="send" id="parameter3" name="parameter3" placeholder="0" type="number" value="0">
+								</fieldset>
+							</div>
+						</div>
+						<div class="row mt-0 mb-3 pb-2 justify-content-center">
+							<div class=" col-xs-6 mr-3">
+								<input class="button" type="submit" value="Calculate!">
+							</div>
+							<div class="col-xs-6">
+								<input class="button" type="reset" value="Clean!">
+							</div>
+						</div>
+					</div>
+					<div class="col-12 col-xs-12 col-md-6 p-2 output shadow-effect">
+						<h2 class="align">Output</h2>
+						<div class="row p-0">
+							<div class="col">
+								<div class="cuadratic shadow-effect">
+									<input disabled id="valor1" name="a" placeholder="a" size="2px" type="text" value="0">X<sup>2</sup> + <input disabled id="valor2" name="b" placeholder="b" size="2px" type="text" value="0">X +<input disabled id="valor3" name="c" placeholder="c" size="2px" type="text" value="0"> = 0
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col">
+								<div class=" cuadratic shadow-effect">
+									<h4>ROOTS EQUATIONS</h4>X<sub>1</sub> = <input id="result1" name="x1" placeholder="x1" readonly size="2px" type="text"> X<sub>2</sub> = <input id="result2" name="x2" placeholder="X2" readonly size="2px" type="text">
+								</div>
+							</div>
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+
+		<div class="row mt-5">
+			<div class="col">
+				
+				<address class="align">
+					Diego Andres Rojas ©Derechos Reservados 2018
+				</address>
+
+			</div>
+
+		</div>
+
+	</div>
+	<script src="js/index.js">
+	</script>
+</body>
+</html>
